@@ -1,6 +1,5 @@
 import logging
 import numpy as np
-import datetime
 
 from pyage.core import address
 from pyage.core.agent.agent import generate_agents, Agent
@@ -21,7 +20,6 @@ from pyage.Alberska_Tsp.tsp_mutation import RandomOrderMutation, CutAndChangeMut
 logger = logging.getLogger(__name__)
 
 # parameters
-# TODO: zmieniac parametry i nazwe pliku!!!!!!!!!!!
 if_EMAS = False
 number_of_points = 10
 population = 200
